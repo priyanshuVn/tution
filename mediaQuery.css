@@ -1,0 +1,34 @@
+@media only screen and (max-width:500px) {
+
+    #Navbar {
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    #containor2 {
+        grid-template-areas: 'section1'
+            'section3'
+            'section4';
+
+        top: 150px;
+        left:-20px;
+    }
+
+    .sectionstlye {
+        
+        height: 150px;
+       
+
+    }
+
+    p {
+        font-size: small;
+    }
+    
+
+}

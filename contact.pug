@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    style
+       include index.css
+       include mediaQuery.css
+       include contact.css
+</head>
+<div id="containor">
+    <nav id="Navbar">
+        <ul id="Lists">
+            <li class="items" id="list1"><a href="/">Home</a></li>
+            <li class="items" id="list2"><a href="/course">Courses</a></li>
+            <li class="items" id="list3"><a href="/Contact">Contact</a></li>
+            <li class="items" id="list4"><a href="/Teachers">Subscription</a></li>
+        </ul>
+    </nav>
+<div class="form-style-2">
+    <div class="form-style-2-heading">Provide your information</div>
+        <form action="/Contact" method="post">
+            <label for="field1"><span>Name <span class="required">*</span></span><input type="text" class="input-field"name="name" value="" /></label>
+            <label for="field2"><span>Email <span class="required">*</span></span><input type="text" class="input-field"name="email" value="" /></label>
+            <label>
+                <span>Mobile</span>
+                <input type="text" class="input-field" name="mobile" value="" />
+                
+            </label>
+            <!-- <label for="field4">
+                    <span>Regarding</span>
+                    <select name="Regarding" class="select-field">
+                    <option value="General Question">General</option>
+                    <option value="Advertise">Advertisement</option>
+                    <option value="Partnership">Partnership</option>
+                    </select>
+            </label> -->
+            <label for="field5"><span>Address <span class="required">*</span></span><textarea name="address" class="textarea-field"></textarea></label>
+            <label><span> </span><input type="submit" value="Submit" /></label>
+        </form>
+</div>
